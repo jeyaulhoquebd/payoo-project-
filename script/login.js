@@ -11,9 +11,14 @@ document.getElementById("login-btn").addEventListener("click", function(){
     console.log(pinNumber);
     // 3- matvh pin & monile number
     if(contactNumber=="01234567890" && pinNumber=="1234"){
+        // 3-1 true:::>> alert > homepage
         alert("login success");
         return;
     }
-    // 3-1 true:::>> alert > homepage
-    // 3-2 true:::>> alert> returr
+    else{
+        // 3-2 true:::>> alert> returr
+        alert(" login Failed")
+        return;
+    }
+    
 });
