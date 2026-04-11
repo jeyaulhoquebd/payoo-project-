@@ -2,6 +2,12 @@
 document.getElementById("cashout-btn").addEventListener("click", function(){
     //1- get the agent number & validate
     const cashoutNumber = getValueFromeInput("cashout-number");
+    if(cashoutNumber.length != 11){
+        
+        alert("Invalid Number")
+        return;
+    }
+    
     // 2- get the amount
     const cashoutAmount = getValueFromeInput("cashout-amount")
 
@@ -15,6 +21,20 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
     console.log(newBalance)
     if(newBalance < 0){
         alert("Invalid Amount")
+        return;
+    }
+
+    // 5- Get the Pin and verify 
+    const pin = getValueFromeInput("cashout-pin");
+        if(pin ==="1234"){
+            alert("Cashout Successfull");
+
+            balanceElement.innerText = newBalance;
+            
+    }
+
+    else{
+        alert("Invalid Pin")
         return;
     }
 })
