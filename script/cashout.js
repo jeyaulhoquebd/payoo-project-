@@ -1,5 +1,8 @@
 document.getElementById("cashout-btn").addEventListener("click", function(){
     //1- get the agent number & validate
+   const cashoutNumberInput = document.getElementById("cashout-number");
+   const cashoutNumber = cashoutNumberInput.value;
+   console.log(cashoutNumber);
     // 2- get the amount , valideat , convetyto Number
     // 3- get the Current Balance , valideat , convetyto Number
     // 4- Calculate new Balance 
