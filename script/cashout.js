@@ -20,10 +20,21 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
         alert("Invalid Amount")
         return;
     }
-    console.log("New Balance 👉" , newBalance);
+    
 
     // 5- Get the Pin and verify 
+    const cashoutPinInput = document.getElementById("cashout-pin")
+    const pin = cashoutPinInput.value;
+    if(pin === "1234"){
+        // 5-1 true :: show an alert > set Balance
+        alert("Cashout Successfull")
+        console.log("New Balance 👉" , newBalance);
+    }
     
-    // 5-1 true :: show an alert > set Balance
-    // 5-2 true :: show anerror alert > return
+    else{
+        // 5-2 true :: show anerror alert > return
+        alert("Invalid Pin");
+        return;
+        
+    }
 });
