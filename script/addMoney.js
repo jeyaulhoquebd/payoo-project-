@@ -10,7 +10,11 @@ document.getElementById("add-money-btn").addEventListener("click",function(){
     // 2- get bank account number 
     const accno = getValueFromeInput("add-money-number")
     if(accno.length != 11){
-        alert("Please select a bank");
+        alert("Invalid acc no");
         return;
     }
+    //3- get ammount 
+    const ammount = getValueFromeInput("add-money-amount");
+    const newBlance = getBalance() + Number(ammount);
+    console.log(newBlance);
 })
