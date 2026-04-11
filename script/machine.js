@@ -1,4 +1,4 @@
-console.log("jeya")
+
 
 // machine id -> input value
 function getValueFromeInput(id){
@@ -15,4 +15,11 @@ function getBalance(){
     const balance = balanceElement.innerText;
     console.log("current balance", Number(balance))
     return Number(balance);
+}
+
+// machine value -> set Balance
+
+function setBalance(value){
+    const balanceElement = document.getElementById("balance");
+    balanceElement.innerText = value;
 }
