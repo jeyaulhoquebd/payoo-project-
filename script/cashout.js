@@ -3,6 +3,10 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
    const cashoutNumberInput = document.getElementById("cashout-number");
    const cashoutNumber = cashoutNumberInput.value;
    console.log(cashoutNumber);
+   if(cashoutNumber.length !=11){
+    alert("Invalid Agent Number");
+    return;
+   }
 
     // 2- get the amount 
     const cashoutAmountInput = document.getElementById("cashout-amount")
