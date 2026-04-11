@@ -21,6 +21,7 @@ document.getElementById("add-money-btn").addEventListener("click",function(){
     if(pin == "1234"){
         alert("Add Money Success")
         setBalance()
+        console.log("jejef")
     }
     else{
         alert("Invalid Pin")
