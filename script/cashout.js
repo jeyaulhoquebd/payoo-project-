@@ -15,8 +15,15 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
 
     // 4- Calculate new Balance 
     const newBalance = Number(balance) - Number(cashoutAmount);
+    
+    if(newBalance < 0){
+        alert("Invalid Amount")
+        return;
+    }
     console.log("New Balance 👉" , newBalance);
+
     // 5- Get the Pin and verify 
+    
     // 5-1 true :: show an alert > set Balance
     // 5-2 true :: show anerror alert > return
 });
