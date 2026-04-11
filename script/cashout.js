@@ -35,7 +35,7 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
         console.log("New Balance 👉" , newBalance);
         balanceElement.innerText = newBalance ;
     }
-    
+     
     else{
         // 5-2 true :: show anerror alert > return
         alert("Invalid Pin");
