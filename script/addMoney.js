@@ -20,8 +20,8 @@ document.getElementById("add-money-btn").addEventListener("click",function(){
     const pin = getValueFromeInput("add-money-pin");
     if(pin == "1234"){
         alert("Add Money Success")
-        setBalance()
-        console.log("jejefggggggg")
+        setBalance(newBlance)
+        
     }
     else{
         alert("Invalid Pin")
