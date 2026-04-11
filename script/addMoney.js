@@ -16,5 +16,9 @@ document.getElementById("add-money-btn").addEventListener("click",function(){
     //3- get ammount 
     const ammount = getValueFromeInput("add-money-amount");
     const newBlance = getBalance() + Number(ammount);
-    console.log(newBlance);
+    
+    const pin = getValueFromeInput("add-money-pin");
+    if(pin == "1234"){
+        alert("Add Money Success")
+    }
 })
