@@ -29,6 +29,7 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
         // 5-1 true :: show an alert > set Balance
         alert("Cashout Successfull")
         console.log("New Balance 👉" , newBalance);
+        balanceElement.innerText = newBalance ;
     }
     
     else{
