@@ -10,6 +10,10 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
     const balance = balanceElement.innerText;
     console.log(balance)
 
+    // 4- Calculate Balance
+    const newBalance = Number(balance) - Number(cashoutAmount);
+    console.log(newBalance)
+
 })
 
 
