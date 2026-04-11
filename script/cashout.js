@@ -8,7 +8,10 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
     const cashoutAmountInput = document.getElementById("cashout-amount")
     const cashoutAmount = cashoutAmountInput.value;
     console.log(cashoutAmount);
-    // 3- get the Current Balance , valideat , convetyto Number
+    // 3- get the Current Balance 
+    const balanceElement = document.getElementById("balance")
+    const balance = balanceElement.innerText;
+    console.log(balance)
     // 4- Calculate new Balance 
     // 5- Get the Pin and verify 
     // 5-1 true :: show an alert > set Balance
