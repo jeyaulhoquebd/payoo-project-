@@ -27,6 +27,7 @@ document.getElementById("add-money-btn").addEventListener("click",function(){
         //1- history-container ka shore niye ashbo
         const history = document.getElementById("history-container")
         // 2- new div create korbo 
+        const newHistory = document.createElement("div");
         // 3- new div inerHTML add korbo
         // 4- history container e newdiv append korbo
     }
