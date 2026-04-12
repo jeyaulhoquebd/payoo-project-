@@ -20,7 +20,8 @@ document.getElementById("add-money-btn").addEventListener("click",function(){
     
     const pin = getValueFromeInput("add-money-pin");
     if(pin == "1234"){
-        alert(`Add Money Success from ${bankAccount} at ${new Date()}`);
+        alert(`Add Money Success from
+             ${bankAccount} at ${new Date()}`);
         setBalance(newBlance)
         
     }
