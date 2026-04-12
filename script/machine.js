@@ -29,6 +29,10 @@ function showOnly(id){
     
     const addmoney = document.getElementById("add-money");
     const cashout = document.getElementById("Cashout");
-    console.log(`add Money- ${addmoney} , cashout- ${cashout}`);
+    // console.log(`add Money- ${addmoney} , cashout- ${cashout}`);
+
+    // shobai k hide kore dao
+    addmoney.classList.add("hidden");
+     cashout.classList.add("hidden");
 
 }
