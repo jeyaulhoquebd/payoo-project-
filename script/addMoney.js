@@ -29,6 +29,7 @@ document.getElementById("add-money-btn").addEventListener("click",function(){
         // 2- new div create korbo 
         const newHistory = document.createElement("div");
         // 3- new div inerHTML add korbo
+        newHistory.innerHTML
         // 4- history container e newdiv append korbo
     }
     else{
