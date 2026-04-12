@@ -35,4 +35,6 @@ function showOnly(id){
     addmoney.classList.add("hidden");
      cashout.classList.add("hidden");
 
+     //id wala element ta ke tumi show kora
+
 }
