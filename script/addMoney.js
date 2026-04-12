@@ -32,7 +32,8 @@ document.getElementById("add-money-btn").addEventListener("click",function(){
         newHistory.innerHTML =  `
         <div class="transition-card p-5 bg-base-100">
             Add Money Success from
-             ${bankAccount} at ${new Date()}
+             ${bankAccount}, acc-no &{accno}
+             at ${new Date()}
             </div>
         `
         // 4- history container e newdiv append korbo
