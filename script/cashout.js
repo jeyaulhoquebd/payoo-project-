@@ -33,6 +33,20 @@ document.getElementById("cashout-btn").addEventListener("click", function(){
             setBalance(newBalance);
             // document.getElementById("balance").innerText = newBalance;
             
+            //1- history-container ka shore niye ashbo
+        const history = document.getElementById("history-container")
+        // 2- new div create korbo 
+        const newHistory = document.createElement("div");
+        // 3- new div inerHTML add korbo
+        newHistory.innerHTML =  `
+        <div class="transition-card p-5 bg-base-100">
+            Add Money Success from
+             ${bankAccount}, acc-no &{accno} at ${new Date()}
+            </div>
+        `;
+        // 4- history container e newdiv append korbo
+        history.append(newHistory);
+    
     }
 
     else{
