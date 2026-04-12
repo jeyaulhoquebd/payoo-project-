@@ -26,7 +26,7 @@ function setBalance(value){
 
 // machine id > hide all > show id
 function showOnly(id){
-    const addmoney = document.getElementById("add-money")
-    const cashout = document.getElementById("Cashout")
+    const addmoney = document.getElementById("add-money");
+    const cashout = document.getElementById("Cashout");
 
 }
