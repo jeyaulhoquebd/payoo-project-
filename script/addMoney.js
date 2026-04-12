@@ -31,7 +31,7 @@ document.getElementById("add-money-btn").addEventListener("click",function(){
         // 3- new div inerHTML add korbo
         newHistory.innerHTML =  `
         <div class="transition-card p-5 bg-base-100">
-
+            h1
             </div>
         `
         // 4- history container e newdiv append korbo
