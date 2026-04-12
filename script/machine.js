@@ -36,5 +36,7 @@ function showOnly(id){
      cashout.classList.add("hidden");
 
      //id wala element ta ke tumi show kora
+    const selected = document.getElementById(id);
+    selected.classList.remove("hidden");
 
 }
