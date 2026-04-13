@@ -30,4 +30,4 @@ To explore the project on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/jeyaulhoquebd/payoo-project-.git](https://github.com/jeyaulhoquebd/payoo-project-.git)
+   git clone https://github.com/jeyaulhoquebd/payoo-project-.git
