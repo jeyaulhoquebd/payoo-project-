@@ -23,6 +23,19 @@ This project focuses on delivering a high-quality user experience for digital tr
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
+## 🔗 Project Links
+- **Live Demo:** [View Live Site](https://payoo-project.vercel.app)
+- **Video Walkthrough:** [Watch on YouTube](https://www.youtube.com/watch?v=n-etJI-KzHs)
+- **GitHub Repository:** [Source Code](https://github.com/jeyaulhoquebd/payoo-project-)
+
+👤 About the Developer
+I am Muhammod Jeyaul Hoque, a dedicated aspiring web developer focused on building functional, user-centric, and aesthetically pleasing web applications.
+
+## 💬 You can message me
+- **💼 LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/in/jeyaul-hoque/)
+- **🌐 My Portfolio:** [Jeyaul Hoque](https://jeyaulhoquebd.github.io/jeyaul-hoque/)
+
+
 
 ## ⚙️ Local Setup
 Follow these steps to explore the project on your local machine:
